@@ -1,2 +1,2 @@
 # Autonomous Car
-TS exercise with OOP
+TS exercise that simulates an autonomous vehicle interacting with its environment.
