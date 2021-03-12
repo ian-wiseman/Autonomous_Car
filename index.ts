@@ -1,17 +1,13 @@
 import { getObstacleEvents } from './computer-vision';
 
 interface AutonomousCar {
-  isRunning?: boolean;
+  isRunning?: boolean; // controls the status of the car as on or off
   respond: (events: Events) => void;
 }
 
 interface AutonomousCarProps {
   isRunning?: boolean;
   steeringControl: Steering;
-}
-
-interface Steering extends Control {
-  turn: (direction: string) => void;
 }
 
 interface Events {
@@ -32,7 +28,7 @@ class SteeringControl implements Steering {
   }
 
   turn(direction: string) {
-    this.execute(`Turn ${direction}`);
+    this.execute(`Turn ${direction}`); 
   }
 }
 
