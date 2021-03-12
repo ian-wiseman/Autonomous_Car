@@ -1,4 +1,4 @@
-*/ defines the rules to compile into JS /*
+// defines the rules to compile into JS
 
 {
     "compilerOptions": {
