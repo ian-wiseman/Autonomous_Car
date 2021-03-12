@@ -1,3 +1,5 @@
+*/ defines the rules to compile into JS /*
+
 {
     "compilerOptions": {
       "target": "es2017",
